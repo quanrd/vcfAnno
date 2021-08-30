@@ -22,6 +22,7 @@ Put the vcf2maf.pl file in the working directory where one plan to run the analy
 
 
 #2. Run the analysis
+
 ##(1) Normalize indels
 The position, reference allele and alternative allele of some indels in the Challenge_data.vcf are not in standard format. BCFtools could normalize those variants, check if REF alleles match the reference.
 Please run the script in 1_norm_vcf_bcftools.sh. human_g1k_v37.fasta is the human genome hg19 reference sequencing file that has been used for the variant calling of Challenge_data.vcf, please replace the file path of human_g1k_v37.fasta according to your environment settings. The file human_g1k_v37.fasta can be downloaded from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz
