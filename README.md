@@ -43,9 +43,13 @@ sh vcfAnno.sh --help
 ```
 
 vcfAnno has four parameters.
+
 -f the file path of VCF file.
+
 -d working directory (should be an absolute path)
+
 -a ANNOVAR installing directory (should be an absolute path, e.g. /home/mary/software/annovar)
+
 -v reference genome version of the VCF file (e.g. hg19, hg38).
 
 Execute the following line in the your working directory:
@@ -100,4 +104,6 @@ AF_get_from_API: The update allele frequencies of ExAC exome cohort obtained fro
 
 
 
-Note: vcfAnno does not separate multiallelic variants. The allele frequencies in AF column are directly obtained from the ANNOVAR ExAC database which is a little bit older than AF_get_from_API.
+
+
+Note: vcfAnno does not separate multiallelic variants. The allele frequencies in AF column are directly obtained from the ANNOVAR ExAC database which is a little bit older than AF_get_from_API which were obtained using ExAC REST API.
