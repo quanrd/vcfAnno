@@ -39,7 +39,6 @@ if ! [ -x "$(command -v perl)" ]; then
   exit 1
 fi
 
-#$(basename "$file")
 
 #work dir
 cd $workdir
