@@ -65,41 +65,41 @@ The results including 17 columns, Please find the following information for the 
 
 * Chrom: Chromosome
 
-Pos: Position
+* Pos: Position
 
-Ref: Reference allele
+* Ref: Reference allele
 
-ALT: Alternative allele
+* ALT: Alternative allele
 
-Qual: Phred-scaled quality score assigned by the variant caller.
+* Qual: Phred-scaled quality score assigned by the variant caller.
 
-Gene.refGene: Gene symbol
+* Gene.refGene: Gene symbol
 
-ExonicFunc.refGene: effect of variant
+* ExonicFunc.refGene: effect of variant
 
-Type: Type of variation
+* Type: Type of variation
 
-AAChange.refGene:
+* AAChange.refGene:
 
-CLNSIG: Clinical significance for this single variant recorded in ClinVar database
+* CLNSIG: Clinical significance for this single variant recorded in ClinVar database
 
-CLNDN: Clinical Disease Name recorded in ClinVar database
+* CLNDN: Clinical Disease Name recorded in ClinVar database
 
-AF: Allele frequencies in ExAC exome cohort
+* AF: Allele frequencies in ExAC exome cohort
 
-Sample: Sample name
+* Sample: Sample name
 
-GT: Genotype
+* GT: Genotype
 
-DP: Depth of sequence coverage at the site of variation
+* DP: Depth of sequence coverage at the site of variation
 
-RO: Number of reads supporting the reference allele
+* RO: Number of reads supporting the reference allele
 
-AO: Number of reads supporting the alternative allele
+* AO: Number of reads supporting the alternative allele
 
-Rate: Percentage of reads supporting the variant versus those supporting reference reads
+* Rate: Percentage of reads supporting the variant versus those supporting reference reads
 
-AF_get_from_API: The update allele frequencies of ExAC exome cohort obtained from REST API.
+* AF_get_from_API: The update allele frequencies of ExAC exome cohort obtained from REST API.
 
 
 
