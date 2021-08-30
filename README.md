@@ -63,7 +63,7 @@ Challenge_data_new.hg19_multianno.tsv is the final result of vcfAnno.
 
 The results including 17 columns, Please find the following information for the details.
 
-Chrom: Chromosome
+* Chrom: Chromosome
 
 Pos: Position
 
