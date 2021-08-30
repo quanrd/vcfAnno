@@ -1,7 +1,7 @@
 # vcfAnno
 Variant annotation for Bioinformatics Technical Challenge
 
-vcfAnno.sh is a variant annotation script for the Tempus Bioinformatics Technical Challenge.
+vcfAnno.sh is a variant annotation script for the Bioinformatics Technical Challenge.
 Before running vcfAnno, the following steps are required.
 
 
