@@ -98,4 +98,6 @@ Rate: Percentage of reads supporting the variant versus those supporting referen
 AF_get_from_API: The update allele frequencies of ExAC exome cohort obtained from REST API.
 
 
+
+
 Note: vcfAnno does not separate multiallelic variants. The allele frequencies in AF column are directly obtained from the ANNOVAR ExAC database which is a little bit older than AF_get_from_API.
