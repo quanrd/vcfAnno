@@ -1,11 +1,11 @@
-# vcfAnno
+## vcfAnno
 Variant annotation for Bioinformatics Technical Challenge
 
 vcfAnno.sh is a variant annotation script for the Bioinformatics Technical Challenge.
 Before running vcfAnno, the following steps are required.
 
 
-#1. Install dependencies
+### 1. Install dependencies
 
 BCFtools is a program for manipulating files in the Variant Call Format (VCF).
 The BCFtools (v1.11) can be found from http://samtools.github.io/bcftools/howtos/install.html
@@ -21,9 +21,9 @@ https://www.openbioinformatics.org/annovar/annovar_download_form.php
 Put the vcf2maf.pl file in the working directory where one plan to run the analysis
 
 
-#2. Run the analysis
+### 2. Run the analysis
 
-##(1) Normalize indels
+(1) Normalize indels
 
 The position, reference allele and alternative allele of some indels in the Challenge_data.vcf are not in standard format. BCFtools could normalize those variants, check if REF alleles match the reference.
 
@@ -34,7 +34,7 @@ The file human_g1k_v37.fasta can be downloaded from ftp://ftp.1000genomes.ebi.ac
 bcftools norm -f human_g1k_v37.fasta  Challenge_data.vcf  > Challenge_data_new.vcf
 ```
 
-##(2) vcfAnno
+(2) vcfAnno
 
 Run vcfAnno with the --help flag to get usage information:
 
@@ -57,7 +57,7 @@ Execute the following line in the your working directory:
 sh vcfAnno.sh -f Challenge_data_new.vcf -d <your working directory> -a <path to ANNOVAR installation> -v hg19
 ```
 
-#3. Output
+### 3. Output
 
 Challenge_data_new.hg19_multianno.tsv is the final result of vcfAnno.
 
